@@ -1,0 +1,22 @@
+# môi trường và bộ nhớ đệm Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# kết quả huấn luyện (checkpoint ~520MB, log) — chạy lại bằng main.py train / genre-experiment
+outputs/
+
+# bộ đệm API Wikisource (scripts/fetch_v5.py tự tạo lại)
+data/v5_genre/cache/
+data/processed/
+data/raw/C50/
+
+# file tạm của hệ điều hành, trình soạn thảo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# văn bản gốc khi giải nén raw.zip để dựng lại kho
+data/v5_genre/raw/
