@@ -1,0 +1,48 @@
+{
+  "_ghi_chu": "Tác giả ứng viên cho kho v5. Chỉ tác giả mất trước 1976 (Luật SHTT VN: bảo hộ 50 năm sau năm mất, hết hạn vào cuối năm thứ 50). 'ten' là tên trang 'Tác gia:' trên vi.wikisource (script tự tìm gần đúng nếu sai). 'loai_tru' bỏ trang đó và các trang con; mục bắt đầu bằng '=' chỉ bỏ đúng trang đó. Lưu ý: loại trừ ở đây CHỈ dành cho bản dịch, văn bản của người khác, kịch; KHÔNG loại thơ nữa (khác fetch_wikisource.py cũ). 'goi_y' là thể loại dự đoán cho tác phẩm không tự nhận diện được (chỉ là gợi ý, người duyệt quyết định). Tác giả trong data/raw/extra_authors_30.json (kho v4) được nạp thêm tự động.",
+  "tac_gia": {
+    "nam_cao":          {"ten": "Nam Cao", "nam_mat": 1951, "goi_y": "tu_su", "loai_tru": ["Đôi lứa xứng đôi (tập truyện ngắn)"]},
+    "vu_trong_phung":   {"ten": "Vũ Trọng Phụng", "nam_mat": 1939, "goi_y": "tu_su", "loai_tru": ["Không một tiếng vang"]},
+    "ngo_tat_to":       {"ten": "Ngô Tất Tố", "nam_mat": 1954, "loai_tru": ["Kinh Dịch", "Mặc Tử", "Hoàng Lê nhất thống chí", "Thi văn bình chú", "Đường thi (Ngô Tất Tố)", "Hịch tướng sĩ"]},
+    "thach_lam":        {"ten": "Thạch Lam", "nam_mat": 1942, "goi_y": "tu_su", "loai_tru": []},
+    "ho_bieu_chanh":    {"ten": "Hồ Biểu Chánh", "nam_mat": 1958, "goi_y": "tu_su", "loai_tru": []},
+    "lan_khai":         {"ten": "Lan Khai", "nam_mat": 1945, "goi_y": "tu_su", "loai_tru": []},
+    "phan_khoi":        {"ten": "Phan Khôi", "nam_mat": 1959, "goi_y": "nghi_luan", "loai_tru": []},
+    "pham_quynh":       {"ten": "Phạm Quỳnh", "nam_mat": 1945, "goi_y": "nghi_luan", "loai_tru": [
+                          "=Nam Phong tạp chí",
+                          "Nam Phong tạp chí/Quyển I/Số 1/Tiểu-thuyết", "Nam Phong tạp chí/Quyển I/Số 2/Tiểu-thuyết",
+                          "Nam Phong tạp chí/Quyển I/Số 2/Luận-thuyết/Một bài diễn-thuyết của quan Toàn-quyền Sarraut",
+                          "Nam Phong tạp chí/Quyển I/Số 2/Tạp-trở/Bài diễn-thuyết của quan học-chính Russier về việc nước Mĩ nhập cuộc với Đồng-minh",
+                          "Nam Phong tạp chí/Quyển I/Số 2/Tạp-trở/Truyện người lính bằng tuyết"]},
+    "nguyen_van_vinh":  {"ten": "Nguyễn Văn Vĩnh", "nam_mat": 1936, "goi_y": "nghi_luan", "loai_tru": [
+                          "Bệnh tưởng", "Thơ ngụ ngôn La Fontaine", "Truyện Gil-Blas de Santillane", "Truyện Tê-lê-mặc phiêu lưu ký",
+                          "Truyện các danh nhân Hi-lạp, La-mã đối nhau", "Con ve và con kiến (Nguyễn Văn Vĩnh dịch 1)", "Qui-li-ve du ký",
+                          "Mai-nương Lệ-cốt", "Con yêu râu xanh", "Jean de La Fontaine"]},
+    "phan_ke_binh":     {"ten": "Phan Kế Bính", "nam_mat": 1921, "goi_y": "nghi_luan", "loai_tru": ["Tam quốc diễn nghĩa", "Hịch tướng sĩ (Phan Kế Bính dịch)", "Nét mực tình"]},
+    "tran_trong_kim":   {"ten": "Trần Trọng Kim", "nam_mat": 1953, "goi_y": "nghi_luan", "loai_tru": ["Việt thi", "Văn tế Trần Trọng Kim", "Điếu văn Trần Trọng Kim (Nguyễn Hữu Trí)", "Bình Ngô đại cáo (Trần Trọng Kim dịch)", "Hịch tướng sĩ (Trần Trọng Kim dịch)"]},
+    "tan_da":           {"ten": "Tản Đà", "nam_mat": 1939, "loai_tru": ["Ca dao, dân ca"]},
+    "nguyen_chanh_sat": {"ten": "Nguyễn Chánh Sắt", "nam_mat": 1947, "goi_y": "tu_su", "loai_tru": []},
+
+    "ho_xuan_huong":    {"ten": "Hồ Xuân Hương", "nam_mat": 1822, "goi_y": "tho", "loai_tru": []},
+    "nguyen_khuyen":    {"ten": "Nguyễn Khuyến", "nam_mat": 1909, "goi_y": "tho", "loai_tru": []},
+    "tran_te_xuong":    {"ten": "Trần Tế Xương", "nam_mat": 1907, "goi_y": "tho", "loai_tru": []},
+    "nguyen_du":        {"ten": "Nguyễn Du", "nam_mat": 1820, "goi_y": "tho", "loai_tru": []},
+    "nguyen_cong_tru":  {"ten": "Nguyễn Công Trứ", "nam_mat": 1858, "goi_y": "tho", "loai_tru": []},
+    "ba_huyen_thanh_quan": {"ten": "Bà Huyện Thanh Quan", "nam_mat": 1848, "goi_y": "tho", "loai_tru": []},
+    "nguyen_dinh_chieu": {"ten": "Nguyễn Đình Chiểu", "nam_mat": 1888, "goi_y": "tho", "loai_tru": []},
+    "han_mac_tu":       {"ten": "Hàn Mặc Tử", "nam_mat": 1940, "goi_y": "tho", "loai_tru": []},
+    "nguyen_binh":      {"ten": "Nguyễn Bính", "nam_mat": 1966, "goi_y": "tho", "loai_tru": []},
+    "bich_khe":         {"ten": "Bích Khê", "nam_mat": 1946, "goi_y": "tho", "loai_tru": []},
+    "nguyen_nhuoc_phap": {"ten": "Nguyễn Nhược Pháp", "nam_mat": 1938, "goi_y": "tho", "loai_tru": []},
+    "tham_tam":         {"ten": "Thâm Tâm", "nam_mat": 1950, "goi_y": "tho", "loai_tru": []},
+    "dong_ho":          {"ten": "Đông Hồ", "nam_mat": 1969, "goi_y": "tho", "loai_tru": []},
+
+    "nhat_linh":        {"ten": "Nhất Linh", "nam_mat": 1963, "goi_y": "tu_su", "loai_tru": []},
+    "hoang_dao":        {"ten": "Hoàng Đạo", "nam_mat": 1948, "loai_tru": []},
+    "khai_hung":        {"ten": "Khái Hưng", "nam_mat": 1947, "goi_y": "tu_su", "loai_tru": []},
+    "huynh_tinh_cua":   {"ten": "Huỳnh Tịnh Của", "nam_mat": 1907, "loai_tru": []},
+    "nguyen_an_ninh":   {"ten": "Nguyễn An Ninh", "nam_mat": 1943, "goi_y": "nghi_luan", "loai_tru": []},
+    "hai_trieu":        {"ten": "Hải Triều", "nam_mat": 1954, "goi_y": "nghi_luan", "loai_tru": []},
+    "tran_huy_lieu":    {"ten": "Trần Huy Liệu", "nam_mat": 1969, "goi_y": "nghi_luan", "loai_tru": []}
+  }
+}

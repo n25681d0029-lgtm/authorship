@@ -1,0 +1,13 @@
+# Cài bằng: pip install -r requirements.txt
+# Muốn dùng GPU: cài torch bản CUDA theo hướng dẫn ở https://pytorch.org trước, rồi mới chạy lệnh trên.
+torch>=2.1
+transformers>=4.40
+tokenizers>=0.15
+scikit-learn>=1.3
+numpy>=1.24
+pandas>=2.0
+tqdm>=4.65
+matplotlib>=3.7
+pyvi>=0.1.1             # tách từ tiếng Việt cho PhoBERT
+streamlit>=1.40         # giao diện demo (app.py)
+beautifulsoup4>=4.12    # chỉ cần khi tải lại dữ liệu từ Wikisource (scripts/fetch_v5.py)

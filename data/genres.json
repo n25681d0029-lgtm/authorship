@@ -1,0 +1,49 @@
+{
+  "_ghi_chu": "Định nghĩa thể loại cho kho v5 (31/10–01/11/2026). Nhãn gán cho TỪNG TÁC PHẨM, không gán cho tác giả: một tác giả có tác phẩm ở nhiều thể loại thì xuất hiện ở nhiều thể loại. Gán theo HÌNH THỨC văn bản (thể thơ, kể chuyện hư cấu, ghi chép người thật việc thật, lập luận), không theo chủ đề. Thứ tự kiểm tra khi gán: tho -> tu_su -> ky -> nghi_luan; văn bản lai (vd. truyện có chèn thơ) lấy hình thức chiếm phần lớn. Muốn chia nhỏ hơn về sau thì thêm thể loại mới và gán lại cột genre trong data/v5_works.csv.",
+  "phien_ban": 1,
+  "the_loai": {
+    "tho": {
+      "ten": "Thơ",
+      "mo_ta": "Văn bản viết thành dòng thơ (có ngắt dòng, thường có vần, nhịp): thơ Đường luật, lục bát, song thất lục bát, thơ mới, thơ tự do, truyện thơ, ca dao do tác giả viết, phú, văn tế viết theo thể vần.",
+      "bao_gom": ["thơ", "truyện thơ", "ngâm khúc", "hát nói", "phú", "văn tế có vần"],
+      "khong_gom": ["bản dịch thơ của người khác", "thơ chữ Hán (chỉ lấy bản quốc ngữ của chính tác giả)", "lời bài hát của tác giả khác"],
+      "cach_cat_doan": "theo dòng thơ: ghép các dòng liền nhau của MỘT bài (hoặc vài bài ngắn liền nhau trong cùng tập) thành đoạn 40–160 âm tiết, giữ ký tự xuống dòng",
+      "tu_khoa_the_loai_wikisource": ["thơ", "thi", "lục bát", "đường luật", "song thất", "hát nói", "ngâm", "phú", "truyện thơ", "thơ mới"],
+      "tu_khoa_tieu_de": ["thơ", "thi tập", "ngâm khúc", "vịnh", "phú", "ca", "khúc"]
+    },
+    "tu_su": {
+      "ten": "Tự sự",
+      "mo_ta": "Văn xuôi kể chuyện HƯ CẤU: có nhân vật, cốt truyện do tác giả tạo ra. Gồm tiểu thuyết, truyện ngắn, truyện vừa, truyện ngụ ngôn, truyện lịch sử viết dưới dạng tiểu thuyết.",
+      "bao_gom": ["tiểu thuyết", "truyện ngắn", "truyện vừa", "truyện ngụ ngôn", "tiểu thuyết lịch sử", "truyện kinh dị, trinh thám"],
+      "khong_gom": ["truyện dịch", "truyện phỏng dịch", "tự truyện, hồi ký (thuộc ky)", "truyện danh nhân viết như khảo cứu (thuộc nghi_luan)"],
+      "cach_cat_doan": "đoạn văn xuôi 50–200 âm tiết, không ghép xuyên chương",
+      "tu_khoa_the_loai_wikisource": ["tiểu thuyết", "truyện ngắn", "truyện vừa", "truyện dài", "tập truyện", "truyện ngụ ngôn"],
+      "tu_khoa_tieu_de": ["tiểu thuyết", "truyện ngắn", "tập truyện"]
+    },
+    "ky": {
+      "ten": "Ký và văn học phi hư cấu",
+      "mo_ta": "Văn xuôi ghi chép NGƯỜI THẬT, VIỆC THẬT có yếu tố kể, tả và cái tôi trải nghiệm của người viết: phóng sự, bút ký, tùy bút, du ký, hồi ký, tự truyện, nhật ký, ký sự.",
+      "bao_gom": ["phóng sự", "bút ký", "tùy bút", "du ký", "hồi ký", "tự truyện", "nhật ký", "ký sự", "thư từ mang tính tự sự cá nhân"],
+      "khong_gom": ["bài lập luận, phê bình (thuộc nghi_luan)", "tiểu thuyết dựa trên chuyện thật nhưng hư cấu nhân vật (thuộc tu_su)"],
+      "cach_cat_doan": "đoạn văn xuôi 50–200 âm tiết, không ghép xuyên chương",
+      "tu_khoa_the_loai_wikisource": ["phóng sự", "ký", "bút ký", "tùy bút", "du ký", "hồi ký", "tự truyện", "nhật ký", "ký sự"],
+      "tu_khoa_tieu_de": ["phóng sự", "du ký", "hồi ký", "nhật ký", "ký sự", "chuyến đi", "tự truyện", "phố phường"]
+    },
+    "nghi_luan": {
+      "ten": "Văn nghị luận và tiểu luận",
+      "mo_ta": "Văn xuôi LẬP LUẬN hoặc TRÌNH BÀY tri thức: chính luận, xã luận, bút chiến, phê bình văn học, tiểu luận, khảo cứu và biên khảo (lịch sử, triết học, tôn giáo, ngôn ngữ), diễn thuyết, thư ngỏ, sách giáo khoa luân lý.",
+      "bao_gom": ["chính luận", "xã luận", "bút chiến", "phê bình", "tiểu luận", "khảo cứu", "biên khảo", "diễn thuyết", "thư ngỏ", "giáo khoa", "di chúc, lời kêu gọi"],
+      "khong_gom": ["văn bản pháp luật, công văn không ký tên một cá nhân", "bản dịch", "phóng sự (thuộc ky)"],
+      "quyet_dinh": "Khảo cứu, biên khảo được xếp vào nghi_luan (cùng là văn trình bày/lập luận, không có cái tôi trải nghiệm như ky). Nếu sau này muốn tách thì thêm thể loại 'khao_cuu'.",
+      "cach_cat_doan": "đoạn văn xuôi 50–200 âm tiết, không ghép xuyên bài",
+      "tu_khoa_the_loai_wikisource": ["nghị luận", "chính luận", "xã luận", "bút chiến", "phê bình", "tiểu luận", "khảo cứu", "biên khảo", "diễn văn", "diễn thuyết", "bài báo", "lịch sử", "triết học", "giáo khoa", "thư ngỏ"],
+      "tu_khoa_tieu_de": ["luận", "bàn về", "trả lời", "phê bình", "khảo", "thư ngỏ", "diễn thuyết", "lời kêu gọi", "thư gửi", "về việc", "vấn đề", "giáo khoa", "nho giáo", "phật giáo", "chủ nghĩa"]
+    }
+  },
+  "nguong_toi_thieu": {
+    "_ghi_chu": "Một cặp (tác giả, thể loại) chỉ vào kho khi đạt cả hai ngưỡng; một thể loại chỉ train khi có đủ số tác giả. Đổi bằng tham số dòng lệnh build-genre-corpus.",
+    "so_doan_toi_thieu_moi_tac_gia": {"tho": 40, "tu_su": 60, "ky": 40, "nghi_luan": 60},
+    "so_tac_pham_toi_thieu_moi_tac_gia": 2,
+    "so_tac_gia_toi_thieu_moi_the_loai": 5
+  }
+}
