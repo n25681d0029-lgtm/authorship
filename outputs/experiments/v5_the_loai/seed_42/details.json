@@ -1,0 +1,78 @@
+{
+  "split_sizes": {
+    "test": {
+      "nghi_luan": 310,
+      "tho": 180,
+      "tu_su": 203
+    },
+    "train": {
+      "nghi_luan": 1544,
+      "tho": 906,
+      "tu_su": 1020
+    },
+    "val": {
+      "nghi_luan": 319,
+      "tho": 170,
+      "tu_su": 199
+    }
+  },
+  "seconds": {
+    "chung": {
+      "baselines": 10.435346364974976,
+      "concat": 957.9272491931915
+    },
+    "nghi_luan": {
+      "baselines": 4.253010272979736,
+      "concat": 421.9854245185852
+    },
+    "tho": {
+      "baselines": 3.3220906257629395,
+      "concat": 233.97689390182495
+    },
+    "tu_su": {
+      "baselines": 2.934771776199341,
+      "concat": 208.914124250412
+    }
+  },
+  "authors_of_genre": {
+    "nghi_luan": [
+      "dao_trinh_nhat",
+      "duong_ba_trac",
+      "ho_chi_minh",
+      "huynh_thuc_khang",
+      "ngo_tat_to",
+      "nguyen_trong_thuat",
+      "nguyen_van_vinh",
+      "pham_quynh",
+      "phan_boi_chau",
+      "phan_chau_trinh",
+      "phan_ke_binh",
+      "phan_khoi",
+      "tran_trong_kim"
+    ],
+    "tho": [
+      "bich_khe",
+      "dong_ho",
+      "han_mac_tu",
+      "ho_bieu_chanh",
+      "ho_chi_minh",
+      "nguyen_binh",
+      "nguyen_cong_tru",
+      "nguyen_dinh_chieu",
+      "nguyen_du",
+      "phan_boi_chau",
+      "tan_da",
+      "tran_te_xuong"
+    ],
+    "tu_su": [
+      "ho_bieu_chanh",
+      "le_van_truong",
+      "nam_cao",
+      "ngo_tat_to",
+      "nguyen_chanh_sat",
+      "tan_da",
+      "thach_lam",
+      "vu_trong_phung"
+    ]
+  }
+}

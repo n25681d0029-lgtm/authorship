@@ -1,22 +1,39 @@
-# môi trường và bộ nhớ đệm Python
+# ---- môi trường và bộ nhớ đệm Python ----
 .venv/
 venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
 
-# kết quả huấn luyện (checkpoint ~520MB, log) — chạy lại bằng main.py train / genre-experiment
-outputs/
+# ---- mô hình đã huấn luyện (mỗi model.pt ~515 MB; GitHub chặn file > 100 MB) ----
+# Tạo lại bằng: python main.py train ...  /  python main.py ensemble ...
+outputs/checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.joblib
 
-# bộ đệm API Wikisource (scripts/fetch_v5.py tự tạo lại)
+# ---- dữ liệu riêng của người dùng app (lịch sử, yêu thích) ----
+outputs/app_data/
+*.db
+*.sqlite3
+
+# ---- bộ đệm tải về từ Wikisource (scripts/fetch_v5.py tự tạo lại) ----
 data/v5_genre/cache/
 data/processed/
 data/raw/C50/
 
-# file tạm của hệ điều hành, trình soạn thảo
+# ---- file tạm ----
+outputs/_upload.txt
+*.tmp
+*.bak
+*.log.old
+
+# ---- hệ điều hành, trình soạn thảo ----
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# văn bản gốc khi giải nén raw.zip để dựng lại kho
-data/v5_genre/raw/

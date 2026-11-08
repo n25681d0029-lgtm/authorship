@@ -1,0 +1,120 @@
+{
+  "accuracy": 0.8121546961325967,
+  "macro_f1": 0.5895445768444593,
+  "weighted_f1": 0.8281312391215029,
+  "n": 181,
+  "per_class": {
+    "bich_khe": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "dong_ho": {
+      "precision": 0.7272727272727273,
+      "recall": 0.5333333333333333,
+      "f1-score": 0.6153846153846154,
+      "support": 15.0
+    },
+    "han_mac_tu": {
+      "precision": 1.0,
+      "recall": 0.7,
+      "f1-score": 0.8235294117647058,
+      "support": 20.0
+    },
+    "ho_bieu_chanh": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1-score": 0.918918918918919,
+      "support": 20.0
+    },
+    "ho_chi_minh": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "nguyen_binh": {
+      "precision": 0.7551020408163265,
+      "recall": 0.925,
+      "f1-score": 0.8314606741573034,
+      "support": 40.0
+    },
+    "nguyen_cong_tru": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "nguyen_dinh_chieu": {
+      "precision": 0.926829268292683,
+      "recall": 0.95,
+      "f1-score": 0.9382716049382716,
+      "support": 40.0
+    },
+    "nguyen_du": {
+      "precision": 0.7916666666666666,
+      "recall": 0.95,
+      "f1-score": 0.8636363636363636,
+      "support": 20.0
+    },
+    "phan_boi_chau": {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1-score": 0.75,
+      "support": 5.0
+    },
+    "tan_da": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 20.0
+    },
+    "tran_te_xuong": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.8121546961325967,
+    "macro avg": {
+      "precision": 0.6417392252540337,
+      "recall": 0.5840277777777777,
+      "f1-score": 0.5895445768444593,
+      "support": 181.0
+    },
+    "weighted avg": {
+      "precision": 0.8813241801479814,
+      "recall": 0.8121546961325967,
+      "f1-score": 0.8281312391215029,
+      "support": 181.0
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "han_mac_tu",
+      "predicted": "nguyen_binh",
+      "count": 5
+    },
+    {
+      "true": "tan_da",
+      "predicted": "nguyen_binh",
+      "count": 4
+    },
+    {
+      "true": "dong_ho",
+      "predicted": "bich_khe",
+      "count": 3
+    },
+    {
+      "true": "nguyen_binh",
+      "predicted": "nguyen_du",
+      "count": 3
+    },
+    {
+      "true": "tan_da",
+      "predicted": "tran_te_xuong",
+      "count": 3
+    }
+  ]
+}

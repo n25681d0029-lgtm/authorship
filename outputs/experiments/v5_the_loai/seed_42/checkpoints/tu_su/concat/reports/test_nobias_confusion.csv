@@ -1,0 +1,9 @@
+,ho_bieu_chanh,le_van_truong,nam_cao,ngo_tat_to,nguyen_chanh_sat,tan_da,thach_lam,vu_trong_phung
+ho_bieu_chanh,27,0,0,1,1,0,0,0
+le_van_truong,0,27,1,0,0,0,0,2
+nam_cao,1,0,21,1,0,0,4,1
+ngo_tat_to,0,0,0,25,0,0,3,0
+nguyen_chanh_sat,1,0,0,1,26,0,0,0
+tan_da,0,1,0,1,0,13,0,0
+thach_lam,0,0,0,0,0,0,30,0
+vu_trong_phung,0,0,1,2,0,0,6,6

@@ -1,0 +1,112 @@
+[nam_cao] Tác gia:Nam Cao: 29 tác phẩm, 0 bản chụp
+[vu_trong_phung] Tác gia:Vũ Trọng Phụng: 5 tác phẩm, 2 bản chụp
+[ngo_tat_to] Tác gia:Ngô Tất Tố: 31 tác phẩm, 8 bản chụp
+[thach_lam] Tác gia:Thạch Lam: 33 tác phẩm, 0 bản chụp
+[ho_bieu_chanh] Tác gia:Hồ Biểu Chánh: 47 tác phẩm, 16 bản chụp
+[lan_khai] Tác gia:Lan Khai: 1 tác phẩm, 20 bản chụp
+[phan_khoi] Tác gia:Phan Khôi: 120 tác phẩm, 0 bản chụp
+[pham_quynh] Tác gia:Phạm Quỳnh: 24 tác phẩm, 10 bản chụp
+[nguyen_van_vinh] Tác gia:Nguyễn Văn Vĩnh: 24 tác phẩm, 42 bản chụp
+[phan_ke_binh] Tác gia:Phan Kế Bính: 31 tác phẩm, 0 bản chụp
+[tran_trong_kim] Tác gia:Trần Trọng Kim: 23 tác phẩm, 0 bản chụp
+[tan_da] Tác gia:Tản Đà: 60 tác phẩm, 0 bản chụp
+[nguyen_chanh_sat] Tác gia:Nguyễn Chánh Sắt: 3 tác phẩm, 0 bản chụp
+[ho_xuan_huong] Tác gia:Hồ Xuân Hương: 55 tác phẩm, 0 bản chụp
+[nguyen_khuyen] Tác gia:Nguyễn Khuyến: 120 tác phẩm, 0 bản chụp
+[tran_te_xuong] Tác gia:Trần Tế Xương: 120 tác phẩm, 0 bản chụp
+[nguyen_du] Tác gia:Nguyễn Du: 120 tác phẩm, 0 bản chụp
+[nguyen_cong_tru] Tác gia:Nguyễn Công Trứ: 87 tác phẩm, 0 bản chụp
+[ba_huyen_thanh_quan] Tác gia:Bà Huyện Thanh Quan: 8 tác phẩm, 0 bản chụp
+[nguyen_dinh_chieu] Tác gia:Nguyễn Đình Chiểu: 28 tác phẩm, 0 bản chụp
+[han_mac_tu] Tác gia:Hàn Mặc Tử: 117 tác phẩm, 0 bản chụp
+[nguyen_binh] Tác gia:Nguyễn Bính: 118 tác phẩm, 0 bản chụp
+[bich_khe] Tác gia:Bích Khê: 85 tác phẩm, 0 bản chụp
+[nguyen_nhuoc_phap] Tác gia:Nguyễn Nhược Pháp: 11 tác phẩm, 0 bản chụp
+[tham_tam] Tác gia:Thâm Tâm: 21 tác phẩm, 0 bản chụp
+[dong_ho] Tác gia:Đông Hồ: 83 tác phẩm, 0 bản chụp
+[nhat_linh] Tác gia:Nhất Linh: 1 tác phẩm, 0 bản chụp
+[hoang_dao] không tìm thấy trang tác gia 'Hoàng Đạo'
+[khai_hung] Tác gia:Khái Hưng: 4 tác phẩm, 0 bản chụp
+[huynh_tinh_cua] Tác gia:Huỳnh Tịnh Của: 7 tác phẩm, 0 bản chụp
+[nguyen_an_ninh] Tác gia:Nguyễn An Ninh: 2 tác phẩm, 1 bản chụp
+[hai_trieu] Tác gia:Hải Triều: 1 tác phẩm, 0 bản chụp
+[tran_huy_lieu] không tìm thấy trang tác gia 'Trần Huy Liệu'
+[ho_chi_minh] Tác gia:Hồ Chí Minh: 120 tác phẩm, 0 bản chụp
+[le_van_truong] Tác gia:Lê Văn Trương: 8 tác phẩm, 0 bản chụp
+[phan_boi_chau] Tác gia:Phan Bội Châu: 115 tác phẩm, 0 bản chụp
+[truong_vinh_ky] Tác gia:Trương Vĩnh Ký: 2 tác phẩm, 0 bản chụp
+[ngo_duc_ke] Tác gia:Ngô Đức Kế: 10 tác phẩm, 0 bản chụp
+[nguyen_trong_quan] Tác gia:Nguyễn Trọng Quản: 1 tác phẩm, 0 bản chụp
+[diep_van_ky] Tác gia:Diệp Văn Kỳ: 2 tác phẩm, 0 bản chụp
+[pham_duy_ton] Tác gia:Phạm Duy Tốn: 5 tác phẩm, 0 bản chụp
+[hoang_tich_chu] Tác gia:Hoàng Tích Chu: 5 tác phẩm, 0 bản chụp
+[nguyen_ba_hoc] Tác gia:Nguyễn Bá Học: 2 tác phẩm, 0 bản chụp
+[bui_the_my] Tác gia:Bùi Thế Mỹ: 5 tác phẩm, 0 bản chụp
+[huynh_thuc_khang] Tác gia:Huỳnh Thúc Kháng: 14 tác phẩm, 0 bản chụp
+[phan_chau_trinh] Tác gia:Phan Châu Trinh: 26 tác phẩm, 0 bản chụp
+[hoang_ngoc_phach] Tác gia:Hoàng Ngọc Phách: 1 tác phẩm, 0 bản chụp
+[nguyen_trong_thuat] Tác gia:Nguyễn Trọng Thuật: 2 tác phẩm, 2 bản chụp
+[dao_trinh_nhat] Tác gia:Đào Trinh Nhất: 4 tác phẩm, 1 bản chụp
+[dam_phuong] Tác gia:Đạm Phương: 4 tác phẩm, 0 bản chụp
+[bui_ky] Tác gia:Bùi Kỷ: 15 tác phẩm, 0 bản chụp
+[duong_ba_trac] Tác gia:Dương Bá Trạc: 16 tác phẩm, 0 bản chụp
+[truong_minh_ky] Tác gia:Trương Minh Ký: 18 tác phẩm, 0 bản chụp
+[nhuong_tong] Tác gia:Nhượng Tống: 84 tác phẩm, 6 bản chụp
+
+Số tác phẩm theo nhãn hiện tại (? = chưa gán):
+  ba_huyen_thanh_quan   ?:1  tho:7
+  bich_khe              ?:1  tho:84
+  bui_ky                bo:14  tho:1
+  bui_the_my            ?:1  nghi_luan:2  tho:2
+  dam_phuong            ?:1  tho:3
+  dao_trinh_nhat        ?:1  bo:3  nghi_luan:1
+  diep_van_ky           ?:1  nghi_luan:1
+  dong_ho               ?:3  bo:2  tho:78
+  duong_ba_trac         ?:2  bo:2  nghi_luan:1  tho:11
+  hai_trieu             nghi_luan:1
+  han_mac_tu            ?:1  bo:2  tho:114
+  ho_bieu_chanh         bo:16  tho:2  tu_su:45
+  ho_chi_minh           ?:10  bo:7  ky:1  nghi_luan:4  tho:98
+  ho_xuan_huong         ?:2  bo:3  tho:50
+  hoang_dao             ?:1
+  hoang_ngoc_phach      ?:1
+  hoang_tich_chu        ?:3  nghi_luan:2
+  huynh_thuc_khang      ?:1  bo:2  nghi_luan:11
+  huynh_tinh_cua        ?:5  tho:2
+  khai_hung             bo:1  tu_su:3
+  lan_khai              bo:20  tu_su:1
+  le_van_truong         tu_su:8
+  nam_cao               tu_su:29
+  ngo_duc_ke            bo:8  nghi_luan:1  tho:1
+  ngo_tat_to            ?:4  bo:27  ky:1  nghi_luan:3  tho:1  tu_su:3
+  nguyen_an_ninh        bo:2  tho:1
+  nguyen_ba_hoc         ?:1  tu_su:1
+  nguyen_binh           ?:5  tho:113
+  nguyen_chanh_sat      tho:1  tu_su:2
+  nguyen_cong_tru       ?:1  bo:2  tho:84
+  nguyen_dinh_chieu     ?:2  tho:26
+  nguyen_du             ?:113  ky:1  tho:6
+  nguyen_khuyen         ?:41  bo:3  tho:76
+  nguyen_nhuoc_phap     ?:1  tho:10
+  nguyen_trong_quan     tu_su:1
+  nguyen_trong_thuat    bo:2  nghi_luan:2
+  nguyen_van_vinh       bo:46  ky:18  nghi_luan:2
+  nhat_linh             tu_su:1
+  nhuong_tong           bo:86  tho:4
+  pham_duy_ton          bo:1  tu_su:4
+  pham_quynh            bo:14  nghi_luan:20
+  phan_boi_chau         ?:7  bo:7  nghi_luan:3  tho:98
+  phan_chau_trinh       ?:8  bo:10  nghi_luan:2  tho:6
+  phan_ke_binh          ?:1  bo:18  nghi_luan:6  tho:5  tu_su:1
+  phan_khoi             bo:2  nghi_luan:113  tho:4  tu_su:1
+  tan_da                ?:7  bo:26  ky:1  nghi_luan:2  tho:22  tu_su:2
+  thach_lam             ky:1  tu_su:32
+  tham_tam              bo:1  tho:20
+  tran_huy_lieu         ?:1
+  tran_te_xuong         bo:1  tho:119
+  tran_trong_kim        bo:12  ky:1  nghi_luan:9  tho:1
+  truong_minh_ky        ?:2  bo:12  tho:4
+  truong_vinh_ky        ?:1  ky:1
+  vu_trong_phung        ky:1  tu_su:6
+
+Đã ghi D:\apps\programming app\VS code\code data\authorship-NLP\authorship_attribution\data\v5_works.csv. Duyệt cột genre rồi chạy: python scripts/fetch_v5.py fetch

@@ -47,6 +47,21 @@ def describe(ev: dict) -> str:
     return f"{label[0].upper() + label[1:]} {higher} mức trung bình {sd} (giá trị {_num(value)}{unit})."
 
 
+def feature_label(name: str) -> str:
+    """Tên dễ đọc của một đặc trưng phong cách, kèm đơn vị: 'fw[thì]' -> 'từ “thì” (lần/100 từ)'."""
+    m = re.fullmatch(r"fw\[(.+)\]", name)
+    if m:
+        return f"từ “{m.group(1)}” (lần/100 từ)"
+    m = re.fullmatch(r"punct\[(.+)\]", name)
+    if m:
+        return f"{PUNCT_NAMES.get(m.group(1), 'dấu “' + m.group(1) + '”')} (lần/1000 ký tự)"
+    m = re.fullmatch(r"ngram\[(.+)\]", name)
+    if m:
+        return f"xác suất n-gram ký tự cho {m.group(1)}"
+    label, unit = BASE_NAMES.get(name, (name, ""))
+    return label + (f" ({unit.strip()})" if unit else "")
+
+
 def author_display_names(manifest: Path) -> dict[str, str]:
     """slug -> tên tác giả có dấu, lấy từ file CSV có cột author, author_name (data/v5_works.csv)."""
     names = {}

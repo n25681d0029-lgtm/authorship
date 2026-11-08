@@ -1,0 +1,77 @@
+{
+  "config": {
+    "lang": "vi",
+    "backbone": "vinai/phobert-base-v2",
+    "fusion": "concat",
+    "max_length": 256,
+    "batch_size": 16,
+    "epochs": 10,
+    "lr_backbone": 2e-05,
+    "lr_head": 0.001,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "dropout": 0.3,
+    "label_smoothing": 0.0,
+    "grad_clip": 1.0,
+    "freeze_backbone": false,
+    "num_function_words": 150,
+    "style_hidden": 256,
+    "style_out": 128,
+    "fused_dim": 256,
+    "patience": 3,
+    "seed": 43,
+    "val_size": 0.15,
+    "test_size": 0.15,
+    "topic_holdout": 0.0,
+    "char_ngram": false,
+    "accept_rate": 0.95,
+    "class_weight": false,
+    "oversample": true,
+    "class_bias": true,
+    "num_workers": 0
+  },
+  "label_map": {
+    "ho_bieu_chanh": 0,
+    "le_van_truong": 1,
+    "nam_cao": 2,
+    "ngo_tat_to": 3,
+    "nguyen_chanh_sat": 4,
+    "tan_da": 5,
+    "thach_lam": 6,
+    "vu_trong_phung": 7
+  },
+  "style_dim": 176,
+  "data": {
+    "path": "D:\\apps\\programming app\\VS code\\code data\\authorship-NLP\\authorship_attribution\\data\\v5_corpus.csv",
+    "fmt": "auto",
+    "text_col": "text",
+    "author_col": "author",
+    "test_topics": null,
+    "n_docs": 1422,
+    "split_sizes": {
+      "train": 1019,
+      "test": 203,
+      "val": 200
+    }
+  },
+  "calibration": {
+    "temperature": 0.5218029111575718,
+    "reject_threshold": 0.49916663685982415,
+    "accept_rate_val": 0.95,
+    "val_nll_before": 0.3754988779485677,
+    "val_nll_after": 0.27807224052376356,
+    "val_ece_before": 0.18164526987742707,
+    "val_ece_after": 0.06264876344545345,
+    "n_val": 200,
+    "class_bias": [
+      -2.0,
+      -0.25,
+      -0.25,
+      0.0,
+      -0.5,
+      3.0,
+      -1.75,
+      0.0
+    ]
+  }
+}

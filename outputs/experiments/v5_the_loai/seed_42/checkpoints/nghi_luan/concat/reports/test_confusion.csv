@@ -1,0 +1,14 @@
+,dao_trinh_nhat,duong_ba_trac,ho_chi_minh,huynh_thuc_khang,ngo_tat_to,nguyen_trong_thuat,nguyen_van_vinh,pham_quynh,phan_boi_chau,phan_chau_trinh,phan_ke_binh,phan_khoi,tran_trong_kim
+dao_trinh_nhat,29,0,0,0,0,0,0,0,0,0,0,0,0
+duong_ba_trac,0,25,0,0,0,0,0,0,1,0,2,0,0
+ho_chi_minh,0,0,27,0,0,0,0,0,0,0,0,0,1
+huynh_thuc_khang,0,0,0,9,0,0,0,3,0,1,0,4,0
+ngo_tat_to,0,0,0,0,18,0,0,0,0,0,0,0,0
+nguyen_trong_thuat,0,0,0,0,0,13,1,0,0,0,0,1,0
+nguyen_van_vinh,0,0,0,0,0,0,19,0,0,0,0,0,0
+pham_quynh,0,2,0,0,0,0,1,22,1,0,1,0,1
+phan_boi_chau,1,3,0,0,0,0,0,1,20,2,0,2,0
+phan_chau_trinh,0,1,0,0,0,0,0,0,0,13,0,0,0
+phan_ke_binh,2,0,0,0,2,2,2,4,0,0,16,0,1
+phan_khoi,0,0,0,0,0,0,0,1,1,0,0,24,2
+tran_trong_kim,0,0,0,0,0,0,0,2,0,0,0,0,26

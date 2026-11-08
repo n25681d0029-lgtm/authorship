@@ -1,0 +1,34 @@
+                    precision    recall  f1-score   support
+
+          bich_khe       0.00      0.00      0.00         0
+    dao_trinh_nhat       0.96      1.00      0.98        27
+           dong_ho       0.62      0.53      0.57        15
+     duong_ba_trac       0.83      0.83      0.83        29
+        han_mac_tu       1.00      0.80      0.89        20
+     ho_bieu_chanh       0.98      0.88      0.92        49
+       ho_chi_minh       0.79      1.00      0.88        30
+  huynh_thuc_khang       0.48      0.62      0.54        16
+     le_van_truong       0.93      0.90      0.91        29
+           nam_cao       0.80      0.83      0.81        29
+        ngo_tat_to       1.00      0.82      0.90        40
+       nguyen_binh       0.84      0.90      0.87        40
+  nguyen_chanh_sat       0.93      1.00      0.96        27
+   nguyen_cong_tru       0.00      0.00      0.00         0
+ nguyen_dinh_chieu       0.81      0.97      0.89        40
+         nguyen_du       0.80      1.00      0.89        20
+nguyen_trong_thuat       0.58      0.88      0.70        17
+   nguyen_van_vinh       1.00      0.95      0.97        19
+        pham_quynh       0.42      0.28      0.33        29
+     phan_boi_chau       0.88      0.65      0.75        34
+   phan_chau_trinh       0.80      1.00      0.89        20
+      phan_ke_binh       0.78      0.86      0.82        29
+         phan_khoi       0.55      0.57      0.56        30
+            tan_da       0.85      0.47      0.61        36
+         thach_lam       0.88      0.93      0.90        30
+     tran_te_xuong       0.00      0.00      0.00         0
+    tran_trong_kim       0.72      0.90      0.80        29
+    vu_trong_phung       0.80      0.27      0.40        15
+
+          accuracy                           0.81       699
+         macro avg       0.71      0.71      0.70       699
+      weighted avg       0.82      0.81      0.80       699

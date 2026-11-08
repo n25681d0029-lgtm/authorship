@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from config import (DEFAULT_BACKBONES, FUSION_MODES, OUTPUT_DIR, RAW_DATA_DIR, REPORT_DIR,  # noqa: E402
+from config import (CHECKPOINT_DIR, DEFAULT_BACKBONES, FUSION_MODES, OUTPUT_DIR, RAW_DATA_DIR, REPORT_DIR,  # noqa: E402
                     TrainConfig, ensure_dirs)
 
 
@@ -97,7 +97,8 @@ def _config_from_args(args) -> TrainConfig:
         patience=args.patience, seed=args.seed, val_size=args.val_size, test_size=args.test_size,
         label_smoothing=args.label_smoothing, topic_holdout=args.topic_holdout or 0.0,
         char_ngram=args.char_ngram, accept_rate=args.accept_rate, class_weight=args.class_weight,
-        oversample=args.oversample, class_bias=args.class_bias)
+        oversample=args.oversample, class_bias=args.class_bias,
+        split_seed=getattr(args, "split_seed", None))
 
 
 def cmd_build_corpus(args) -> int:
@@ -214,6 +215,21 @@ def cmd_ablation(args) -> int:
     return 0
 
 
+def cmd_ensemble(args) -> int:
+    from src.ensemble import study
+    res = study(args.ckpt, args.extra, resolve_data(args.data) if args.data else None, save=args.save)
+    out = CHECKPOINT_DIR / args.ckpt / "reports" / "ensemble_study.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    for name, r in res["ket_qua"].items():
+        d = r.get("chenh_acc_loc_so_voi_hybrid")
+        print(f"{name:40s} không lọc acc {r['khong_loc']['accuracy']:.3f} F1 {r['khong_loc']['macro_f1']:.3f} | "
+              f"lọc thể loại acc {r['loc_the_loai']['accuracy']:.3f} F1 {r['loc_the_loai']['macro_f1']:.3f}"
+              + (f" | chênh acc {d[0]:+.3f} [{d[1]:+.3f}, {d[2]:+.3f}]" if d else "") + f" | w {r['weights']}")
+    print("Đã ghi", out, "| bộ gộp:", res.get("da_luu", "(không lưu, thêm --save)"))
+    return 0
+
+
 def cmd_evaluate(args) -> int:
     from src.predict import evaluate_checkpoint
     m = evaluate_checkpoint(args.ckpt, resolve_data(args.data) if args.data else None, args.split, args.device)
@@ -296,6 +312,8 @@ def build_parser() -> argparse.ArgumentParser:
         p.add_argument("--val-size", type=float, default=0.15)
         p.add_argument("--test-size", type=float, default=0.15)
         p.add_argument("--seed", type=int, default=42)
+        p.add_argument("--split-seed", type=int, default=None,
+                       help="seed cho cách chia dữ liệu (mặc định = --seed); dùng khi huấn luyện thêm mô hình để gộp")
         p.add_argument("--function-words", type=int, default=150)
         p.add_argument("--test-topics", nargs="*", default=None, help="chủ đề dành riêng cho tập test")
         p.add_argument("--topic-holdout", type=float, default=None,
@@ -390,6 +408,13 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--max-doc-passages", type=int, default=20)
     p.add_argument("--seed", type=int, default=42)
     p.set_defaults(fn=cmd_build_genre_corpus)
+
+    p = sub.add_parser("ensemble", help="Gộp mô hình lai (+ các lần huấn luyện khác) với SVM n-gram, học trọng số trên val")
+    p.add_argument("--ckpt", default="best_model")
+    p.add_argument("--extra", nargs="*", default=[], help="checkpoint mô hình lai phụ cùng cách chia (--split-seed)")
+    p.add_argument("--data", default=None)
+    p.add_argument("--save", action="store_true", help="ghi <ckpt>/ensemble.joblib để predict/app dùng")
+    p.set_defaults(fn=cmd_ensemble)
 
     p = sub.add_parser("evaluate", help="Đánh giá lại một checkpoint")
     p.add_argument("--ckpt", required=True)

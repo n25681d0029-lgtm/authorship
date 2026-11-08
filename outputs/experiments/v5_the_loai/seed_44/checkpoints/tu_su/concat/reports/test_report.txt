@@ -1,0 +1,14 @@
+                  precision    recall  f1-score   support
+
+   ho_bieu_chanh       0.90      1.00      0.95        28
+   le_van_truong       0.83      0.86      0.85        29
+         nam_cao       0.83      0.86      0.85        29
+      ngo_tat_to       0.90      0.90      0.90        29
+nguyen_chanh_sat       0.96      0.96      0.96        28
+          tan_da       1.00      0.93      0.96        14
+       thach_lam       1.00      0.77      0.87        30
+  vu_trong_phung       0.50      0.60      0.55        15
+
+        accuracy                           0.87       202
+       macro avg       0.87      0.86      0.86       202
+    weighted avg       0.88      0.87      0.87       202

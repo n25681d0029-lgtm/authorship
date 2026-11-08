@@ -39,7 +39,7 @@ ALL = "tat_ca"     # dòng gộp mọi thể loại
 def genre_splits(df: pd.DataFrame, cfg: TrainConfig) -> pd.DataFrame:
     """Chia train/val/test theo bài, phân tầng theo cặp thể loại|tác giả để mỗi cặp có mặt ở test nếu đủ bài."""
     keyed = make_splits(df.assign(author=df["genre"] + "|" + df["author"], split=None), cfg.val_size,
-                        cfg.test_size, cfg.seed)
+                        cfg.test_size, cfg.data_seed)
     out = df.copy()
     out["split"] = keyed["split"]
     leaked = check_group_leak(out)

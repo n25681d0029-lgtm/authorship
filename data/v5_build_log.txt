@@ -1,0 +1,86 @@
+
+== nghi_luan: 13 tác giả, 2179 đoạn
+            author  passages  topics  docs  words_mean  invalid_mean
+    dao_trinh_nhat       200       2    27     153.155         0.006
+     duong_ba_trac       200       3    31     162.260         0.002
+       ho_chi_minh       200       7    19     160.375         0.004
+  huynh_thuc_khang       125      12    14     146.720         0.003
+        ngo_tat_to       102       5    10     154.814         0.002
+nguyen_trong_thuat        98       2     8     149.673         0.002
+   nguyen_van_vinh       122      19    19     149.697         0.002
+        pham_quynh       200      11    27     156.685         0.004
+     phan_boi_chau       200       6    48     146.770         0.003
+   phan_chau_trinh       132       2     7     150.000         0.001
+      phan_ke_binh       200       5    46     153.245         0.003
+         phan_khoi       200      41    43     155.555         0.003
+    tran_trong_kim       200       8    59     151.330         0.002
+
+== tho: 12 tác giả, 1259 đoạn
+           author  passages  topics  docs  words_mean  invalid_mean
+         bich_khe        78      55     4     151.808         0.001
+          dong_ho        54      33     3     147.685         0.000
+       han_mac_tu       153      78     8     150.458         0.000
+    ho_bieu_chanh       100       2     5     152.510         0.001
+      ho_chi_minh        59      44     4     149.695         0.006
+      nguyen_binh       196      71    10     153.158         0.000
+  nguyen_cong_tru        44      38     3     148.386         0.002
+nguyen_dinh_chieu       197      12    10     153.904         0.001
+        nguyen_du       150       3     8     153.853         0.000
+    phan_boi_chau        82      57     5     148.439         0.004
+           tan_da        97      18     6     144.691         0.001
+    tran_te_xuong        49      46     3     143.755         0.000
+
+== tu_su: 8 tác giả, 1422 đoạn
+          author  passages  topics  docs  words_mean  invalid_mean
+   ho_bieu_chanh       200       2    28     156.145         0.001
+   le_van_truong       200       3    27     156.940         0.004
+         nam_cao       200      15    26     159.670         0.000
+      ngo_tat_to       200       3    31     157.185         0.000
+nguyen_chanh_sat       200       2    27     157.555         0.002
+          tan_da       104       2    13     156.221         0.005
+       thach_lam       200      26    29     154.390         0.001
+  vu_trong_phung       118       3     8     155.068         0.003
+
+Cặp (thể loại/tác giả) bị loại:
+  ky/nguyen_van_vinh: 8 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  ky/tan_da: 86 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  ky/thach_lam: 114 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  ky/tran_trong_kim: 288 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  ky/truong_vinh_ky: 65 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  ky/vu_trong_phung: 30 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  nghi_luan/bui_the_my: 16 đoạn, 3 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/dam_phuong: 5 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/diep_van_ky: 53 đoạn, 2 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/hai_trieu: 8 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/hoang_tich_chu: 29 đoạn, 5 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/ngo_duc_ke: 20 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/tan_da: 55 đoạn, 4 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  nghi_luan/vu_trong_phung: 15 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tho/ba_huyen_thanh_quan: 3 đoạn, 3 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/bui_ky: 3 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/bui_the_my: 1 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/dam_phuong: 1 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/duong_ba_trac: 4 đoạn, 4 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/ho_xuan_huong: 17 đoạn, 17 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/ngo_duc_ke: 2 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/nguyen_an_ninh: 1 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/nguyen_khuyen: 32 đoạn, 32 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/nguyen_nhuoc_phap: 18 đoạn, 7 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/nhuong_tong: 3 đoạn, 3 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/phan_chau_trinh: 3 đoạn, 3 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/phan_ke_binh: 2 đoạn, 2 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/phan_khoi: 7 đoạn, 4 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/tham_tam: 23 đoạn, 16 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tho/truong_minh_ky: 69 đoạn, 1 tác phẩm (cần ≥40 đoạn, ≥2 tác phẩm)
+  tu_su/hoang_ngoc_phach: 34 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/khai_hung: 389 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/lan_khai: 96 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/nguyen_ba_hoc: 29 đoạn, 2 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/nguyen_trong_quan: 59 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/pham_duy_ton: 34 đoạn, 4 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/phan_ke_binh: 277 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+  tu_su/phan_khoi: 8 đoạn, 1 tác phẩm (cần ≥60 đoạn, ≥2 tác phẩm)
+Thể loại bị loại: {'ky': 'chỉ 1 tác giả (cần ≥5)'}
+Đoạn bị loại vì nhiều âm tiết sai (OCR): {'ky/ngo_tat_to': 4, 'ky/tan_da': 5, 'ky/thach_lam': 6, 'ky/tran_trong_kim': 41, 'ky/truong_vinh_ky': 9, 'ky/vu_trong_phung': 8, 'nghi_luan/dao_trinh_nhat': 57, 'nghi_luan/diep_van_ky': 3, 'nghi_luan/duong_ba_trac': 3, 'nghi_luan/ho_chi_minh': 10, 'nghi_luan/hoang_tich_chu': 1, 'nghi_luan/huynh_thuc_khang': 16, 'nghi_luan/ngo_tat_to': 6, 'nghi_luan/nguyen_trong_thuat': 37, 'nghi_luan/nguyen_van_vinh': 4, 'nghi_luan/pham_quynh': 82, 'nghi_luan/phan_boi_chau': 17, 'nghi_luan/phan_chau_trinh': 2, 'nghi_luan/phan_ke_binh': 11, 'nghi_luan/phan_khoi': 19, 'nghi_luan/tan_da': 15, 'nghi_luan/tran_trong_kim': 86, 'nghi_luan/vu_trong_phung': 3, 'tu_su/ho_bieu_chanh': 1, 'tu_su/hoang_ngoc_phach': 1, 'tu_su/lan_khai': 16, 'tu_su/le_van_truong': 11, 'tu_su/nguyen_chanh_sat': 4, 'tu_su/nguyen_trong_quan': 3, 'tu_su/tan_da': 29, 'tu_su/vu_trong_phung': 3, 'tho/dong_ho': 1, 'tho/han_mac_tu': 1, 'tho/ho_chi_minh': 4, 'tho/nguyen_cong_tru': 7, 'tho/phan_boi_chau': 16, 'tho/phan_khoi': 1, 'tho/tan_da': 8, 'tho/truong_minh_ky': 27}
+
+4860 đoạn, 3 thể loại, 28 tác giả -> D:\apps\programming app\VS code\code data\authorship-NLP\authorship_attribution\data\v5_corpus.csv

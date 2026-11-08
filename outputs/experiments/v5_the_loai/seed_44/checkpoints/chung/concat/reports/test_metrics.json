@@ -1,0 +1,216 @@
+{
+  "accuracy": 0.8123209169054442,
+  "macro_f1": 0.7623202046983164,
+  "weighted_f1": 0.812857083633338,
+  "n": 698,
+  "per_class": {
+    "bich_khe": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "dao_trinh_nhat": {
+      "precision": 0.725,
+      "recall": 1.0,
+      "f1-score": 0.8405797101449275,
+      "support": 29.0
+    },
+    "dong_ho": {
+      "precision": 0.8666666666666667,
+      "recall": 0.65,
+      "f1-score": 0.7428571428571429,
+      "support": 20.0
+    },
+    "duong_ba_trac": {
+      "precision": 1.0,
+      "recall": 0.6785714285714286,
+      "f1-score": 0.8085106382978723,
+      "support": 28.0
+    },
+    "han_mac_tu": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1-score": 0.9,
+      "support": 20.0
+    },
+    "ho_bieu_chanh": {
+      "precision": 0.9215686274509803,
+      "recall": 0.9791666666666666,
+      "f1-score": 0.9494949494949495,
+      "support": 48.0
+    },
+    "ho_chi_minh": {
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9787234042553191,
+      "support": 46.0
+    },
+    "huynh_thuc_khang": {
+      "precision": 0.875,
+      "recall": 0.4375,
+      "f1-score": 0.5833333333333334,
+      "support": 16.0
+    },
+    "le_van_truong": {
+      "precision": 1.0,
+      "recall": 0.7241379310344828,
+      "f1-score": 0.84,
+      "support": 29.0
+    },
+    "nam_cao": {
+      "precision": 0.92,
+      "recall": 0.7931034482758621,
+      "f1-score": 0.8518518518518519,
+      "support": 29.0
+    },
+    "ngo_tat_to": {
+      "precision": 0.71875,
+      "recall": 0.9787234042553191,
+      "f1-score": 0.8288288288288288,
+      "support": 47.0
+    },
+    "nguyen_binh": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1-score": 0.918918918918919,
+      "support": 20.0
+    },
+    "nguyen_chanh_sat": {
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9629629629629629,
+      "support": 28.0
+    },
+    "nguyen_cong_tru": {
+      "precision": 1.0,
+      "recall": 0.7272727272727273,
+      "f1-score": 0.8421052631578947,
+      "support": 11.0
+    },
+    "nguyen_dinh_chieu": {
+      "precision": 0.8536585365853658,
+      "recall": 0.9459459459459459,
+      "f1-score": 0.8974358974358975,
+      "support": 37.0
+    },
+    "nguyen_du": {
+      "precision": 1.0,
+      "recall": 0.85,
+      "f1-score": 0.918918918918919,
+      "support": 20.0
+    },
+    "nguyen_trong_thuat": {
+      "precision": 0.8125,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8387096774193549,
+      "support": 15.0
+    },
+    "nguyen_van_vinh": {
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1-score": 0.7692307692307693,
+      "support": 16.0
+    },
+    "pham_quynh": {
+      "precision": 0.6511627906976745,
+      "recall": 1.0,
+      "f1-score": 0.7887323943661971,
+      "support": 28.0
+    },
+    "phan_boi_chau": {
+      "precision": 0.8260869565217391,
+      "recall": 0.6785714285714286,
+      "f1-score": 0.7450980392156863,
+      "support": 28.0
+    },
+    "phan_chau_trinh": {
+      "precision": 0.8333333333333334,
+      "recall": 0.5,
+      "f1-score": 0.625,
+      "support": 20.0
+    },
+    "phan_ke_binh": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.6153846153846154,
+      "support": 28.0
+    },
+    "phan_khoi": {
+      "precision": 0.41304347826086957,
+      "recall": 0.6785714285714286,
+      "f1-score": 0.5135135135135135,
+      "support": 28.0
+    },
+    "tan_da": {
+      "precision": 0.8484848484848485,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.835820895522388,
+      "support": 34.0
+    },
+    "thach_lam": {
+      "precision": 0.9655172413793104,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9491525423728814,
+      "support": 30.0
+    },
+    "tran_te_xuong": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "tran_trong_kim": {
+      "precision": 0.6666666666666666,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.6896551724137931,
+      "support": 28.0
+    },
+    "vu_trong_phung": {
+      "precision": 0.5,
+      "recall": 0.26666666666666666,
+      "f1-score": 0.34782608695652173,
+      "support": 15.0
+    },
+    "accuracy": 0.8123209169054442,
+    "macro avg": {
+      "precision": 0.7829442552159805,
+      "recall": 0.717894507210085,
+      "f1-score": 0.7350944831019479,
+      "support": 698.0
+    },
+    "weighted avg": {
+      "precision": 0.8411938238413814,
+      "recall": 0.8123209169054442,
+      "f1-score": 0.812857083633338,
+      "support": 698.0
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "phan_chau_trinh",
+      "predicted": "phan_khoi",
+      "count": 10
+    },
+    {
+      "true": "vu_trong_phung",
+      "predicted": "phan_khoi",
+      "count": 10
+    },
+    {
+      "true": "tran_trong_kim",
+      "predicted": "ngo_tat_to",
+      "count": 7
+    },
+    {
+      "true": "phan_boi_chau",
+      "predicted": "phan_ke_binh",
+      "count": 6
+    },
+    {
+      "true": "phan_ke_binh",
+      "predicted": "tran_trong_kim",
+      "count": 6
+    }
+  ]
+}

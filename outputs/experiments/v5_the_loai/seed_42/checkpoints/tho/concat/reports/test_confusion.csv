@@ -1,0 +1,13 @@
+,bich_khe,dong_ho,han_mac_tu,ho_bieu_chanh,ho_chi_minh,nguyen_binh,nguyen_cong_tru,nguyen_dinh_chieu,nguyen_du,phan_boi_chau,tan_da,tran_te_xuong
+bich_khe,0,0,0,0,0,0,0,0,0,0,0,0
+dong_ho,1,9,1,0,0,0,3,0,0,0,6,0
+han_mac_tu,0,1,17,0,0,2,0,0,0,0,0,0
+ho_bieu_chanh,0,0,0,0,0,0,0,0,0,0,0,0
+ho_chi_minh,0,0,0,0,20,0,0,0,0,0,0,0
+nguyen_binh,0,1,1,0,4,14,0,0,0,0,0,0
+nguyen_cong_tru,0,0,0,0,0,0,0,0,0,0,0,0
+nguyen_dinh_chieu,0,0,0,0,0,0,0,19,1,0,0,0
+nguyen_du,0,0,0,0,0,0,0,1,19,0,0,0
+phan_boi_chau,0,0,0,0,6,0,1,1,0,9,3,0
+tan_da,0,0,0,0,0,0,1,1,0,1,17,0
+tran_te_xuong,0,0,0,0,0,0,2,0,0,0,0,18

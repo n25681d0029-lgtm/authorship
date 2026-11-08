@@ -1,0 +1,226 @@
+[ky/ngo_tat_to] 2 tác phẩm, đã có 0 âm tiết
+   -> 32226 âm tiết
+[ky/nguyen_van_vinh] 1 tác phẩm, đã có 0 âm tiết
+   -> 1134 âm tiết
+[ky/tan_da] 1 tác phẩm, đã có 0 âm tiết
+   -> 13382 âm tiết
+[ky/thach_lam] 1 tác phẩm, đã có 0 âm tiết
+   -> 18267 âm tiết
+[ky/tran_trong_kim] 1 tác phẩm, đã có 0 âm tiết
+   -> 49560 âm tiết
+[ky/truong_vinh_ky] 1 tác phẩm, đã có 0 âm tiết
+   -> 11606 âm tiết
+[ky/vu_trong_phung] 1 tác phẩm, đã có 0 âm tiết
+   -> 5891 âm tiết
+[nghi_luan/bui_the_my] 3 tác phẩm, đã có 0 âm tiết
+   -> 2486 âm tiết
+[nghi_luan/dam_phuong] 1 tác phẩm, đã có 0 âm tiết
+   -> 756 âm tiết
+[nghi_luan/dao_trinh_nhat] 2 tác phẩm, đã có 0 âm tiết
+   -> 56520 âm tiết
+[nghi_luan/diep_van_ky] 2 tác phẩm, đã có 0 âm tiết
+   -> 8701 âm tiết
+[nghi_luan/duong_ba_trac] 3 tác phẩm, đã có 0 âm tiết
+   -> 57864 âm tiết
+[nghi_luan/hai_trieu] 1 tác phẩm, đã có 0 âm tiết
+   -> 1296 âm tiết
+[nghi_luan/ho_chi_minh] 7 tác phẩm, đã có 0 âm tiết
+   -> 34212 âm tiết
+[nghi_luan/hoang_tich_chu] 5 tác phẩm, đã có 0 âm tiết
+   -> 4510 âm tiết
+[nghi_luan/huynh_thuc_khang] 12 tác phẩm, đã có 0 âm tiết
+   -> 20831 âm tiết
+[nghi_luan/ngo_duc_ke] 1 tác phẩm, đã có 0 âm tiết
+   -> 2701 âm tiết
+[nghi_luan/ngo_tat_to] 5 tác phẩm, đã có 0 âm tiết
+   -> 15648 âm tiết
+[nghi_luan/nguyen_trong_thuat] 2 tác phẩm, đã có 0 âm tiết
+   -> 20774 âm tiết
+[nghi_luan/nguyen_van_vinh] 19 tác phẩm, đã có 0 âm tiết
+   -> 18469 âm tiết
+[nghi_luan/pham_quynh] 19 tác phẩm, đã có 0 âm tiết
+   -> 61729 âm tiết
+[nghi_luan/phan_boi_chau] 6 tác phẩm, đã có 0 âm tiết
+   -> 42531 âm tiết
+[nghi_luan/phan_chau_trinh] 2 tác phẩm, đã có 0 âm tiết
+   -> 18691 âm tiết
+[nghi_luan/phan_ke_binh] 5 tác phẩm, đã có 0 âm tiết
+   -> 60548 âm tiết
+[nghi_luan/phan_khoi] 113 tác phẩm, đã có 0 âm tiết
+   -> 60280 âm tiết
+[nghi_luan/tan_da] 4 tác phẩm, đã có 0 âm tiết
+   -> 10943 âm tiết
+[nghi_luan/tran_trong_kim] 10 tác phẩm, đã có 0 âm tiết
+   -> 90396 âm tiết
+[nghi_luan/vu_trong_phung] 1 tác phẩm, đã có 0 âm tiết
+   -> 2781 âm tiết
+[tho/ba_huyen_thanh_quan] 7 tác phẩm, đã có 0 âm tiết
+   -> 382 âm tiết
+[tho/bich_khe] 85 tác phẩm, đã có 0 âm tiết
+   -> 11841 âm tiết
+[tho/bui_ky] 1 tác phẩm, đã có 0 âm tiết
+   -> 402 âm tiết
+[tho/bui_the_my] 2 tác phẩm, đã có 0 âm tiết
+   -> 172 âm tiết
+[tho/dam_phuong] 3 tác phẩm, đã có 0 âm tiết
+   -> 138 âm tiết
+[tho/dong_ho] 80 tác phẩm, đã có 0 âm tiết
+   -> 8132 âm tiết
+[tho/duong_ba_trac] 8 tác phẩm, đã có 0 âm tiết
+   -> 504 âm tiết
+[tho/han_mac_tu] 114 tác phẩm, đã có 0 âm tiết
+   -> 23198 âm tiết
+[tho/ho_bieu_chanh] 2 tác phẩm, đã có 0 âm tiết
+   -> 14959 âm tiết
+[tho/ho_chi_minh] 99 tác phẩm, đã có 0 âm tiết
+   -> 9335 âm tiết
+[tho/ho_xuan_huong] 50 tác phẩm, đã có 0 âm tiết
+   -> 2460 âm tiết
+[tho/ngo_duc_ke] 1 tác phẩm, đã có 0 âm tiết
+   -> 224 âm tiết
+[tho/nguyen_an_ninh] 1 tác phẩm, đã có 0 âm tiết
+   -> 112 âm tiết
+[tho/nguyen_binh] 118 tác phẩm, đã có 0 âm tiết
+   -> 30019 âm tiết
+[tho/nguyen_cong_tru] 84 tác phẩm, đã có 0 âm tiết
+   -> 7550 âm tiết
+[tho/nguyen_dinh_chieu] 26 tác phẩm, đã có 0 âm tiết
+   -> 30175 âm tiết
+[tho/nguyen_du] 5 tác phẩm, đã có 0 âm tiết
+   -> 23278 âm tiết
+[tho/nguyen_khuyen] 71 tác phẩm, đã có 0 âm tiết
+   -> 4630 âm tiết
+[tho/nguyen_nhuoc_phap] 11 tác phẩm, đã có 0 âm tiết
+   -> 2801 âm tiết
+[tho/nhuong_tong] 4 tác phẩm, đã có 0 âm tiết
+   -> 366 âm tiết
+[tho/phan_boi_chau] 98 tác phẩm, đã có 0 âm tiết
+   -> 14690 âm tiết
+[tho/phan_chau_trinh] 5 tác phẩm, đã có 0 âm tiết
+   -> 405 âm tiết
+[tho/phan_ke_binh] 4 tác phẩm, đã có 0 âm tiết
+   -> 271 âm tiết
+[tho/phan_khoi] 4 tác phẩm, đã có 0 âm tiết
+   -> 1146 âm tiết
+[tho/tan_da] 23 tác phẩm, đã có 0 âm tiết
+   -> 14584 âm tiết
+[tho/tham_tam] 20 tác phẩm, đã có 0 âm tiết
+   -> 3552 âm tiết
+[tho/tran_te_xuong] 119 tác phẩm, đã có 0 âm tiết
+   -> 7063 âm tiết
+[tho/truong_minh_ky] 1 tác phẩm, đã có 0 âm tiết
+   -> 14623 âm tiết
+[tu_su/ho_bieu_chanh] 44 tác phẩm, đã có 0 âm tiết
+   -> 62077 âm tiết
+[tu_su/hoang_ngoc_phach] 1 tác phẩm, đã có 0 âm tiết
+   -> 5287 âm tiết
+[tu_su/khai_hung] 1 tác phẩm, đã có 0 âm tiết
+   -> 62222 âm tiết
+[tu_su/lan_khai] 1 tác phẩm, đã có 0 âm tiết
+   -> 17625 âm tiết
+[tu_su/le_van_truong] 8 tác phẩm, đã có 0 âm tiết
+   -> 66826 âm tiết
+[tu_su/nam_cao] 29 tác phẩm, đã có 0 âm tiết
+   -> 61985 âm tiết
+[tu_su/ngo_tat_to] 3 tác phẩm, đã có 0 âm tiết
+   -> 69086 âm tiết
+[tu_su/nguyen_ba_hoc] 2 tác phẩm, đã có 0 âm tiết
+   -> 4271 âm tiết
+[tu_su/nguyen_chanh_sat] 3 tác phẩm, đã có 0 âm tiết
+   -> 74544 âm tiết
+[tu_su/nguyen_trong_quan] 1 tác phẩm, đã có 0 âm tiết
+   -> 9581 âm tiết
+[tu_su/pham_duy_ton] 4 tác phẩm, đã có 0 âm tiết
+   -> 5269 âm tiết
+[tu_su/phan_ke_binh] 1 tác phẩm, đã có 0 âm tiết
+   -> 39153 âm tiết
+[tu_su/phan_khoi] 1 tác phẩm, đã có 0 âm tiết
+   -> 1302 âm tiết
+[tu_su/tan_da] 3 tác phẩm, đã có 0 âm tiết
+   -> 19476 âm tiết
+[tu_su/thach_lam] 32 tác phẩm, đã có 0 âm tiết
+   -> 60147 âm tiết
+[tu_su/vu_trong_phung] 3 tác phẩm, đã có 0 âm tiết
+   -> 18503 âm tiết
+
+== tho: 28 tác giả
+   ba_huyen_thanh_quan        382 âm tiết    7 tác phẩm
+   bich_khe                 11841 âm tiết   84 tác phẩm
+   bui_ky                     402 âm tiết    1 tác phẩm
+   bui_the_my                 172 âm tiết    2 tác phẩm
+   dam_phuong                 138 âm tiết    3 tác phẩm
+   dong_ho                   8132 âm tiết   78 tác phẩm
+   duong_ba_trac              504 âm tiết    8 tác phẩm
+   han_mac_tu               23198 âm tiết  114 tác phẩm
+   ho_bieu_chanh            14959 âm tiết    2 tác phẩm
+   ho_chi_minh               9335 âm tiết   97 tác phẩm
+   ho_xuan_huong             2460 âm tiết   50 tác phẩm
+   ngo_duc_ke                 224 âm tiết    1 tác phẩm
+   nguyen_an_ninh             112 âm tiết    1 tác phẩm
+   nguyen_binh              30019 âm tiết   98 tác phẩm
+   nguyen_cong_tru           7550 âm tiết   80 tác phẩm
+   nguyen_dinh_chieu        30175 âm tiết   20 tác phẩm
+   nguyen_du                23278 âm tiết    5 tác phẩm
+   nguyen_khuyen             4630 âm tiết   71 tác phẩm
+   nguyen_nhuoc_phap         2801 âm tiết   10 tác phẩm
+   nhuong_tong                366 âm tiết    4 tác phẩm
+   phan_boi_chau            14690 âm tiết   96 tác phẩm
+   phan_chau_trinh            405 âm tiết    5 tác phẩm
+   phan_ke_binh               271 âm tiết    4 tác phẩm
+   phan_khoi                 1146 âm tiết    4 tác phẩm
+   tan_da                   14584 âm tiết   22 tác phẩm
+   tham_tam                  3552 âm tiết   20 tác phẩm
+   tran_te_xuong             7063 âm tiết  119 tác phẩm
+   truong_minh_ky           14623 âm tiết    1 tác phẩm
+
+== tu_su: 16 tác giả
+   ho_bieu_chanh            62077 âm tiết    2 tác phẩm
+   hoang_ngoc_phach          5287 âm tiết    1 tác phẩm
+   khai_hung                62222 âm tiết    1 tác phẩm
+   lan_khai                 17625 âm tiết    1 tác phẩm
+   le_van_truong            66826 âm tiết    3 tác phẩm
+   nam_cao                  61985 âm tiết   15 tác phẩm
+   ngo_tat_to               69086 âm tiết    3 tác phẩm
+   nguyen_ba_hoc             4271 âm tiết    2 tác phẩm
+   nguyen_chanh_sat         74544 âm tiết    2 tác phẩm
+   nguyen_trong_quan         9581 âm tiết    1 tác phẩm
+   pham_duy_ton              5269 âm tiết    4 tác phẩm
+   phan_ke_binh             39153 âm tiết    1 tác phẩm
+   phan_khoi                 1302 âm tiết    1 tác phẩm
+   tan_da                   19476 âm tiết    2 tác phẩm
+   thach_lam                60147 âm tiết   26 tác phẩm
+   vu_trong_phung           18503 âm tiết    3 tác phẩm
+
+== ky: 7 tác giả
+   ngo_tat_to               32226 âm tiết    2 tác phẩm
+   nguyen_van_vinh           1134 âm tiết    1 tác phẩm
+   tan_da                   13382 âm tiết    1 tác phẩm
+   thach_lam                18267 âm tiết    1 tác phẩm
+   tran_trong_kim           49560 âm tiết    1 tác phẩm
+   truong_vinh_ky           11606 âm tiết    1 tác phẩm
+   vu_trong_phung            5891 âm tiết    1 tác phẩm
+
+== nghi_luan: 21 tác giả
+   bui_the_my                2486 âm tiết    3 tác phẩm
+   dam_phuong                 756 âm tiết    1 tác phẩm
+   dao_trinh_nhat           56520 âm tiết    2 tác phẩm
+   diep_van_ky               8701 âm tiết    2 tác phẩm
+   duong_ba_trac            57864 âm tiết    3 tác phẩm
+   hai_trieu                 1296 âm tiết    1 tác phẩm
+   ho_chi_minh              34212 âm tiết    7 tác phẩm
+   hoang_tich_chu            4510 âm tiết    5 tác phẩm
+   huynh_thuc_khang         20831 âm tiết   12 tác phẩm
+   ngo_duc_ke                2701 âm tiết    1 tác phẩm
+   ngo_tat_to               15648 âm tiết    5 tác phẩm
+   nguyen_trong_thuat       20774 âm tiết    2 tác phẩm
+   nguyen_van_vinh          18469 âm tiết   19 tác phẩm
+   pham_quynh               61729 âm tiết   11 tác phẩm
+   phan_boi_chau            42531 âm tiết    6 tác phẩm
+   phan_chau_trinh          18691 âm tiết    2 tác phẩm
+   phan_ke_binh             60548 âm tiết    5 tác phẩm
+   phan_khoi                60280 âm tiết   41 tác phẩm
+   tan_da                   10943 âm tiết    4 tác phẩm
+   tran_trong_kim           90396 âm tiết    8 tác phẩm
+   vu_trong_phung            2781 âm tiết    1 tác phẩm
+
+Tiếp theo: python main.py build-genre-corpus

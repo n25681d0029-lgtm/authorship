@@ -103,7 +103,7 @@ def run_training(cfg: TrainConfig, data_path: Path, out_dir: Optional[Path] = No
 
             df = genre_splits(df, cfg)
         else:
-            df = make_splits(df, cfg.val_size, cfg.test_size, cfg.seed, test_topics, cfg.topic_holdout or None)
+            df = make_splits(df, cfg.val_size, cfg.test_size, cfg.data_seed, test_topics, cfg.topic_holdout or None)
     label_map = build_label_map(df)
     names = [a for a, _ in sorted(label_map.items(), key=lambda kv: kv[1])]
     sizes = df["split"].value_counts().to_dict()

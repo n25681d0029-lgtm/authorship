@@ -411,3 +411,24 @@ class DisplayNamesTest(unittest.TestCase):
             p = Path(d) / "works.csv"
             p.write_text("author,author_name,work\nnam_cao,Nam Cao,Lão Hạc\n", encoding="utf-8-sig")
             self.assertEqual(author_display_names(p), {"nam_cao": "Nam Cao"})
+
+
+class NormalizationStepsTest(unittest.TestCase):
+    """Bước ① của tab trực quan hóa: chạy lại normalize từng quy tắc, đếm số chỗ đổi, kết quả phải trùng normalize."""
+
+    def test_steps_reproduce_normalize_and_count(self):
+        from src.pipeline_trace import normalization_steps
+        text = "«Văn-minh» là gì ? Ông nói – rằng\r\nsai-\nbiệt​, chữ Kirin: ро"
+        out, steps = normalization_steps(text)
+        self.assertEqual(out, normalize(text))
+        counts = {s["rule"].split(" ")[0]: s["count"] for s in steps}
+        self.assertEqual(counts["Ngoặc"], 2)
+        self.assertEqual(counts["Chữ"], 2)
+        self.assertGreaterEqual(len(steps), 6)
+        self.assertEqual(normalization_steps("Văn bản sạch.")[1], [])
+
+    def test_feature_labels_readable(self):
+        from src.explain import feature_label
+        self.assertEqual(feature_label("fw[thì]"), "từ “thì” (lần/100 từ)")
+        self.assertIn("dấu phẩy", feature_label("punct[,]"))
+        self.assertIn("câu", feature_label("sent_len_mean"))

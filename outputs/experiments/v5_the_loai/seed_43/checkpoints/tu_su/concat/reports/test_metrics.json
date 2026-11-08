@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.8078817733990148,
+  "macro_f1": 0.8029277271482649,
+  "weighted_f1": 0.8058396404703515,
+  "n": 203,
+  "per_class": {
+    "ho_bieu_chanh": {
+      "precision": 1.0,
+      "recall": 0.9655172413793104,
+      "f1-score": 0.9824561403508771,
+      "support": 29.0
+    },
+    "le_van_truong": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8275862068965517,
+      "f1-score": 0.7384615384615385,
+      "support": 29.0
+    },
+    "nam_cao": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8275862068965517,
+      "f1-score": 0.7384615384615385,
+      "support": 29.0
+    },
+    "ngo_tat_to": {
+      "precision": 0.8076923076923077,
+      "recall": 0.75,
+      "f1-score": 0.7777777777777778,
+      "support": 28.0
+    },
+    "nguyen_chanh_sat": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 27.0
+    },
+    "tan_da": {
+      "precision": 0.8823529411764706,
+      "recall": 0.9375,
+      "f1-score": 0.9090909090909091,
+      "support": 16.0
+    },
+    "thach_lam": {
+      "precision": 0.9375,
+      "recall": 0.5,
+      "f1-score": 0.6521739130434783,
+      "support": 30.0
+    },
+    "vu_trong_phung": {
+      "precision": 0.5882352941176471,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.625,
+      "support": 15.0
+    },
+    "accuracy": 0.8078817733990148,
+    "macro avg": {
+      "precision": 0.8186392345399698,
+      "recall": 0.8093570402298851,
+      "f1-score": 0.8029277271482649,
+      "support": 203.0
+    },
+    "weighted avg": {
+      "precision": 0.8293016145450222,
+      "recall": 0.8078817733990148,
+      "f1-score": 0.8058396404703515,
+      "support": 203.0
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "thach_lam",
+      "predicted": "nam_cao",
+      "count": 7
+    },
+    {
+      "true": "vu_trong_phung",
+      "predicted": "le_van_truong",
+      "count": 5
+    },
+    {
+      "true": "ngo_tat_to",
+      "predicted": "nam_cao",
+      "count": 3
+    },
+    {
+      "true": "thach_lam",
+      "predicted": "le_van_truong",
+      "count": 3
+    },
+    {
+      "true": "thach_lam",
+      "predicted": "vu_trong_phung",
+      "count": 3
+    }
+  ]
+}

@@ -54,14 +54,28 @@ class AuthorPredictor:
         self.names = [a for a, _ in sorted(label_map.items(), key=lambda kv: kv[1])]
         self.collator = Collator(tokenizer, cfg.max_length, cfg.lang)
         self.device = device
+        self.ensemble = None          # EnsembleHead (src/ensemble.py) nếu checkpoint có ensemble.joblib
+        self.extra_models: list["AuthorPredictor"] = []
 
     @property
     def reject_threshold(self) -> Optional[float]:
-        """Ngưỡng từ chối học trên tập val lúc huấn luyện (None với checkpoint cũ)."""
+        """Ngưỡng từ chối học trên tập val lúc huấn luyện (None với checkpoint cũ); có bộ gộp thì lấy ngưỡng của bộ gộp."""
+        if self.ensemble is not None and self.ensemble.reject_threshold is not None:
+            return self.ensemble.reject_threshold
         return self.calibration.get("reject_threshold")
 
+    @property
+    def ensemble_info(self) -> Optional[dict]:
+        """Mô tả bộ gộp cho giao diện (None nếu chỉ một mô hình)."""
+        if self.ensemble is None:
+            return None
+        return {"n_hybrid": 1 + len(self.extra_models), "weights": dict(self.ensemble.weights),
+                "temperature": self.ensemble.temperature, "report": self.ensemble.report}
+
     @classmethod
-    def from_checkpoint(cls, ckpt: str | Path, device: str = "auto") -> "AuthorPredictor":
+    def from_checkpoint(cls, ckpt: str | Path, device: str = "auto", use_ensemble: bool = True) -> "AuthorPredictor":
+        """use_ensemble: nếu thư mục có ensemble.joblib (main.py ensemble --save) thì nạp thêm các mô hình lai phụ và
+        bộ n-gram, xác suất là kết hợp của tất cả. False: chỉ mô hình chính (như trước)."""
         ckpt = resolve_checkpoint(ckpt)
         meta = load_json(ckpt / "meta.json")
         cfg = TrainConfig.from_dict(meta["config"])
@@ -84,8 +98,14 @@ class AuthorPredictor:
             dropout=cfg.dropout)
         state = torch.load(ckpt / "model.pt", map_location="cpu", weights_only=True)
         model.load_state_dict(state)
-        return cls(model, cfg, extractor, meta["label_map"], tokenizer, get_device(device), stacker,
-                   meta.get("calibration"))
+        obj = cls(model, cfg, extractor, meta["label_map"], tokenizer, get_device(device), stacker,
+                  meta.get("calibration"))
+        if use_ensemble and (ckpt / "ensemble.joblib").exists():
+            from .ensemble import EnsembleHead
+
+            obj.ensemble = EnsembleHead.load(ckpt / "ensemble.joblib")
+            obj.extra_models = [cls.from_checkpoint(n, device, use_ensemble=False) for n in obj.ensemble.hybrids]
+        return obj
 
     def style_features(self, texts: Sequence[str]) -> np.ndarray:
         """Vector đưa vào luồng phong cách: đặc trưng stylometry (+ xác suất n-gram ký tự nếu mô hình có dùng)."""
@@ -117,9 +137,26 @@ class AuthorPredictor:
 
     def predict_proba(self, texts: Sequence[str], batch_size: int = 16,
                       calibrated: bool = True) -> tuple[np.ndarray, Optional[np.ndarray]]:
-        """Ma trận xác suất (số văn bản x số tác giả), đã chia logits cho nhiệt độ T nếu calibrated."""
+        """Ma trận xác suất (số văn bản x số tác giả), đã chia logits cho nhiệt độ T nếu calibrated.
+        Có bộ gộp: kết hợp mọi thành viên (EnsembleHead), calibrated=False bỏ qua nhiệt độ cuối."""
+        if self.ensemble is not None:
+            parts, gates = self.ensemble_parts(texts, batch_size)
+            z = self.ensemble.combine_parts(parts.pop("hybrid"), parts)
+            return softmax(z, self.ensemble.temperature if calibrated else 1.0), gates
         logits, gates = self.predict_logits(texts, batch_size)
         return softmax(logits, self.temperature if calibrated else 1.0), gates
+
+    def ensemble_parts(self, texts: Sequence[str], batch_size: int = 16) -> tuple[dict, Optional[np.ndarray]]:
+        """Log-xác suất từng thành viên bộ gộp: "hybrid" (trung bình các mô hình lai) và từng bộ n-gram."""
+        from .ensemble import log_softmax
+        from .text_utils import normalize
+
+        logits, gates = self.predict_logits(texts, batch_size)
+        lps = [log_softmax(logits, self.temperature)]
+        lps += [log_softmax(m.predict_logits(texts, batch_size)[0], m.temperature) for m in self.extra_models]
+        parts = {"hybrid": np.mean(lps, axis=0)}
+        parts.update(self.ensemble.member_logps([normalize(t) for t in texts]))
+        return parts, gates
 
     def predict(self, texts: Sequence[str], top_k: int = 3, explain: bool = True,
                 reject_below: Optional[float] = None, batch_size: int = 16,
@@ -189,7 +226,7 @@ def evaluate_checkpoint(ckpt: str | Path, data_path: Optional[Path] = None, spli
     path = Path(data_path) if data_path else Path(info["path"])
     df = load_corpus(path, fmt=info["fmt"], text_col=info["text_col"], author_col=info["author_col"])
     cfg = TrainConfig.from_dict(meta["config"])
-    df = make_splits(df, cfg.val_size, cfg.test_size, cfg.seed, info.get("test_topics"), cfg.topic_holdout or None)
+    df = make_splits(df, cfg.val_size, cfg.test_size, cfg.data_seed, info.get("test_topics"), cfg.topic_holdout or None)
     part = df[df["split"] == split]
     if part.empty:
         raise ValueError(f"Tập '{split}' rỗng.")

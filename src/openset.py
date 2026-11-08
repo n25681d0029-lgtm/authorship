@@ -58,7 +58,7 @@ def evaluate_open_set(ckpt: str | Path, unknown_src: Path, device: str = "auto",
     info, cfg = meta["data"], TrainConfig.from_dict(meta["config"])
     df = load_corpus(Path(data_path) if data_path else Path(info["path"]), fmt=info["fmt"],
                      text_col=info["text_col"], author_col=info["author_col"])
-    df = make_splits(df, cfg.val_size, cfg.test_size, cfg.seed, info.get("test_topics"), cfg.topic_holdout or None)
+    df = make_splits(df, cfg.val_size, cfg.test_size, cfg.data_seed, info.get("test_topics"), cfg.topic_holdout or None)
     test = df[(df["split"] == "test") & df["author"].isin(meta["label_map"])]
     unk = unknown_passages(unknown_src)
 

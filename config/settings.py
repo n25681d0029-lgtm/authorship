@@ -7,6 +7,7 @@ Muốn đặt dữ liệu và kết quả ở nơi khác, đặt biến môi tr�
 from __future__ import annotations
 
 import os
+from typing import Optional
 from dataclasses import asdict, dataclass, fields
 from pathlib import Path
 
@@ -71,6 +72,12 @@ class TrainConfig:
     oversample: bool = False      # rút đoạn train theo xác suất tỷ lệ nghịch số đoạn của tác giả (cân bằng mỗi epoch)
     class_bias: bool = False      # học độ ưu tiên cộng vào logit từng tác giả trên tập val (tối đa macro-F1)
     num_workers: int = 0
+    split_seed: Optional[int] = None   # seed riêng cho cách chia train/val/test (None = dùng seed); khác seed mô hình
+                                       # để huấn luyện nhiều mô hình trên CÙNG một cách chia rồi gộp (ensemble)
+
+    @property
+    def data_seed(self) -> int:
+        return self.seed if self.split_seed is None else int(self.split_seed)
 
     def __post_init__(self) -> None:
         if self.lang not in DEFAULT_BACKBONES:

@@ -1,0 +1,18 @@
+                   precision    recall  f1-score   support
+
+         bich_khe       0.00      0.00      0.00         0
+          dong_ho       0.73      0.53      0.62        15
+       han_mac_tu       1.00      0.70      0.82        20
+    ho_bieu_chanh       1.00      0.85      0.92        20
+      ho_chi_minh       0.50      1.00      0.67         1
+      nguyen_binh       0.76      0.93      0.83        40
+  nguyen_cong_tru       0.00      0.00      0.00         0
+nguyen_dinh_chieu       0.93      0.95      0.94        40
+        nguyen_du       0.79      0.95      0.86        20
+    phan_boi_chau       1.00      0.60      0.75         5
+           tan_da       1.00      0.50      0.67        20
+    tran_te_xuong       0.00      0.00      0.00         0
+
+         accuracy                           0.81       181
+        macro avg       0.64      0.58      0.59       181
+     weighted avg       0.88      0.81      0.83       181
